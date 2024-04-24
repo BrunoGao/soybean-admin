@@ -169,6 +169,15 @@ export const generatedRoutes: GeneratedRoute[] = [
     ]
   },
   {
+    name: 'health',
+    path: '/health',
+    component: 'layout.base$view.health',
+    meta: {
+      title: 'health',
+      i18nKey: 'route.health'
+    }
+  },
+  {
     name: 'home',
     path: '/home',
     component: 'layout.base$view.home',

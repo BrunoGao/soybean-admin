@@ -433,6 +433,41 @@ declare namespace App {
           };
           creativity: string;
         };
+        health: {
+          greeting: string;
+          weatherDesc: string;
+          projectCount: string;
+          todo: string;
+          message: string;
+          downloadCount: string;
+          registerCount: string;
+          heartrate: string;
+          bloodOxygen: string;
+          pressureHigh: string;
+          pressureLow: string;
+          temperature: string;
+          step: string;
+          weather: string;
+          humidity: string;
+          schedule: string;
+          study: string;
+          work: string;
+          rest: string;
+          entertainment: string;
+          visitCount: string;
+          turnover: string;
+          dealCount: string;
+          projectNews: {
+            title: string;
+            moreNews: string;
+            desc1: string;
+            desc2: string;
+            desc3: string;
+            desc4: string;
+            desc5: string;
+          };
+          creativity: string;
+        };
         function: {
           tab: {
             tabOperate: {

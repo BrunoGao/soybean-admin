@@ -161,6 +161,7 @@ const routeMap: RouteMap = {
   "function_super-page": "/function/super-page",
   "function_tab": "/function/tab",
   "function_toggle-auth": "/function/toggle-auth",
+  "health": "/health",
   "home": "/home",
   "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?",
   "manage": "/manage",

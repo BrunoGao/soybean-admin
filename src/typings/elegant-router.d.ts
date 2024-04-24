@@ -35,6 +35,7 @@ declare module "@elegant-router/types" {
     "function_super-page": "/function/super-page";
     "function_tab": "/function/tab";
     "function_toggle-auth": "/function/toggle-auth";
+    "health": "/health";
     "home": "/home";
     "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?";
     "manage": "/manage";
@@ -89,6 +90,7 @@ declare module "@elegant-router/types" {
     | "500"
     | "about"
     | "function"
+    | "health"
     | "home"
     | "login"
     | "manage"
@@ -124,6 +126,7 @@ declare module "@elegant-router/types" {
     | "function_super-page"
     | "function_tab"
     | "function_toggle-auth"
+    | "health"
     | "home"
     | "manage_menu"
     | "manage_role"
